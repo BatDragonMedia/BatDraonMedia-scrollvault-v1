@@ -3,51 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BatDragon ScrollVault</title>
+  <title>Scroll Vault | BatDragonMedia</title>
   <style>
     body {
-      background: #000;
-      color: #00ffcc;
-      font-family: monospace;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+      background: black;
+      color: white;
+      font-family: 'Arial', sans-serif;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
+
+    .container {
+      padding: 40px 20px;
+    }
+
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5em;
+      font-size: 2.5em;
+      margin-bottom: 20px;
     }
+
     p {
-      margin-bottom: 2em;
-      font-size: 1.2rem;
-    }
-    a {
-      text-decoration: none;
-    }
-    button {
-      background: #00ffcc;
-      border: none;
-      padding: 1em 2em;
       font-size: 1.2em;
-      border-radius: 10px;
-      cursor: pointer;
-      color: #000;
-      transition: background 0.3s ease;
+      margin-bottom: 40px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    button:hover {
-      background-color: #00bba0;
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #00ffcc;
+      color: black;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #00cc99;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to the ScrollVault</h1>
-  <p>Tap below to enter the treasure mine.</p>
-  <a href="https://d1fc.vercel.app" target="_blank">
-    <button>Enter Vault</button>
-  </a>
+  <div class="container">
+    <h1>Welcome to the Scroll Vault</h1>
+    <p>This is your access point to BatDragon's hidden treasures — exclusive content, legacy scrolls, and digital loot await inside.</p>
+    
+    <a href="https://bat-draon-media-scrollvault-v1-d1fc.vercel.app" class="button">Enter the Vault</a>
+
+    <footer>
+      <p>&copy; 2025 BatDragonMedia. All Rights Reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
